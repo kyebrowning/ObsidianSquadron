@@ -1,0 +1,346 @@
+<!DOCTYPE StreamControlLayout>
+<layout width="650" height="230" tabbed="1">
+  <tab name="Star Wars Legion Player Info">
+    <label x="10" y="14" width="46" height="13">Player 1</label>
+    <lineEdit id="p1Name" x="60" y="10" width="170" height="20" />
+    <label x="250" y="14" width="46" height="13">VPs</label>
+    <spinBox id="p1Score" x="275" y="9" width="40" height="25" maximum="15" />
+    <label x="10" y="44" width="46" height="13">Faction</label>
+    <comboBox id="p1Faction" x="60" y="40" width="170" height="20" >
+      <comboItem>   </comboItem>
+      <comboItem>Empire</comboItem>
+      <comboItem>Rebels</comboItem>
+      <comboItem>Republic</comboItem>
+      <comboItem>Separatist</comboItem>
+      <comboItem>Shadow Collective</comboItem>
+    </comboBox>
+    <label x="10" y="74" width="46" height="13">Command</label>
+    <comboBox id="p1Command" x="60" y="70" width="170" height="20" >
+      <comboItem>   </comboItem>
+      <comboItem>• AI Coordination</comboItem>
+      <comboItem>• Ambush</comboItem>
+      <comboItem>• And Now You Will Die</comboItem>
+      <comboItem>• Blast Off!</comboItem>
+      <comboItem>• Common Cause</comboItem>
+      <comboItem>• Coordinated Bombardment</comboItem>
+      <comboItem>• Cover Observation</comboItem>
+      <comboItem>• Crack Shot</comboItem>
+      <comboItem>• Delaying Tactics</comboItem>
+      <comboItem>• Duel of the Fates</comboItem>
+      <comboItem>• Explosions!</comboItem>
+      <comboItem>• Face Me!</comboItem>
+      <comboItem>• Fear, Surprise, Intimidation</comboItem>
+      <comboItem>• Grroooogrrraaaawrrrrrrrrrrrrmph</comboItem>
+      <comboItem>• Hello There!</comboItem>
+      <comboItem>• I'm Your Worst Nightmare</comboItem>
+      <comboItem>• Idiot's Army</comboItem>
+      <comboItem>• Implacable</comboItem>
+      <comboItem>• Marked for Elimination</comboItem>
+      <comboItem>• Maximum Firepower</comboItem>
+      <comboItem>• Mechnized Incursion</comboItem>
+      <comboItem>• Merciless Munitions</comboItem>
+      <comboItem>• Our Fate is in Your Hands</comboItem>
+      <comboItem>• Ploy</comboItem>
+      <comboItem>• Pulse Scan</comboItem>
+      <comboItem>• Rebellious</comboItem>
+      <comboItem>• Sabotaged Communications</comboItem>
+      <comboItem>• Size Matters Not</comboItem>
+      <comboItem>• Somebody Has to be a Hero</comboItem>
+      <comboItem>• Son of Skywalker</comboItem>
+      <comboItem>• Sorry About the Mess</comboItem>
+      <comboItem>• Synchronized Offensive</comboItem>
+      <comboItem>• They Too Will Suffer</comboItem>
+      <comboItem>• This is Where the Fun Begins</comboItem>
+      <comboItem>• Trained in Your Jedi Arts</comboItem>
+      <comboItem>• Unrelenting Fire</comboItem>
+      <comboItem>• Vader's Might</comboItem>
+      <comboItem>• Voracious Ambition</comboItem>
+      <comboItem>• Whipcord Launcher</comboItem>
+      <comboItem>• Witch Magick</comboItem>
+      <comboItem>• You Serve Your Master Well</comboItem>
+      <comboItem>•• Ace Up His Sleeve</comboItem>
+      <comboItem>•• Aggression</comboItem>
+      <comboItem>•• Aggressive Negotiations</comboItem>
+      <comboItem>•• Air Support</comboItem>
+      <comboItem>•• Brains and Brawn</comboItem>
+      <comboItem>•• Concussive Blast</comboItem>
+      <comboItem>•• Curage of the Rebellion</comboItem>
+      <comboItem>•• Deploy the Garrisson</comboItem>
+      <comboItem>•• Double the Fall</comboItem>
+      <comboItem>•• Evasive Maneuvers</comboItem>
+      <comboItem>•• Fear and Dead Men</comboItem>
+      <comboItem>•• Fight Another Day</comboItem>
+      <comboItem>•• Full of Surprises</comboItem>
+      <comboItem>•• Give in to Your Anger</comboItem>
+      <comboItem>•• His Eminence</comboItem>
+      <comboItem>•• I'm in Control</comboItem>
+      <comboItem>•• ISB Investigation</comboItem>
+      <comboItem>•• Impromptu Immolation</comboItem>
+      <comboItem>•• Incapacitate</comboItem>
+      <comboItem>•• Knowledge and Defense</comboItem>
+      <comboItem>•• Last Stand</comboItem>
+      <comboItem>•• Lead from the Front</comboItem>
+      <comboItem>•• Mrowgh Ghrrmrowrig!</comboItem>
+      <comboItem>•• My Ally is the Force</comboItem>
+      <comboItem>•• New Ways to Motivate Them</comboItem>
+      <comboItem>•• No Time for Sorrows</comboItem>
+      <comboItem>•• Orbital Strike</comboItem>
+      <comboItem>•• Overwhelming Barrage</comboItem>
+      <comboItem>•• Pinned Down</comboItem>
+      <comboItem>•• Preservation Protocols</comboItem>
+      <comboItem>•• Push</comboItem>
+      <comboItem>•• Reckless Diversion</comboItem>
+      <comboItem>•• Reptilian Rampage</comboItem>
+      <comboItem>•• Size Matters Sometimes</comboItem>
+      <comboItem>•• Supreme Commander</comboItem>
+      <comboItem>•• Surgical Strike</comboItem>
+      <comboItem>•• Symbol of Rebellion</comboItem>
+      <comboItem>•• Tactical Planning</comboItem>
+      <comboItem>•• The Phatom Menace</comboItem>
+      <comboItem>•• There is No Try</comboItem>
+      <comboItem>•• Trust Goes Both Ways</comboItem>
+      <comboItem>•• Turning the Tide</comboItem>
+      <comboItem>•• Unrelenting Assualt</comboItem>
+      <comboItem>•• You Underestimate My Power</comboItem>
+      <comboItem>•• ZX Flame Projector</comboItem>
+      <comboItem>••• All In</comboItem>
+      <comboItem>••• An Entire Legion</comboItem>
+      <comboItem>••• Annihilation Looms</comboItem>
+      <comboItem>••• Assualt</comboItem>
+      <comboItem>••• At Last</comboItem>
+      <comboItem>••• Attack of the Clones</comboItem>
+      <comboItem>••• Change of Plans</comboItem>
+      <comboItem>••• Complete the Mission</comboItem>
+      <comboItem>••• Coordinated Fire</comboItem>
+      <comboItem>••• Covering Fire</comboItem>
+      <comboItem>••• Crush Them!</comboItem>
+      <comboItem>••• Darkness Descends</comboItem>
+      <comboItem>••• Debark for Ground Assault</comboItem>
+      <comboItem>••• Diplomatic Cover</comboItem>
+      <comboItem>••• Discretion</comboItem>
+      <comboItem>••• Do Not Underestimate Our Means</comboItem>
+      <comboItem>••• General Kenobi</comboItem>
+      <comboItem>••• Hero of the Clone Wars</comboItem>     
+      <comboItem>••• Hold at Any Cost</comboItem>
+      <comboItem>••• I Make the Rules Now</comboItem>
+      <comboItem>••• I am a Jedi</comboItem>
+      <comboItem>••• Imperial Discipline</comboItem>
+      <comboItem>••• Leader of the 501st</comboItem>
+      <comboItem>••• Legacy of Mandalore</comboItem>
+      <comboItem>••• Luminous Beings Are We</comboItem>
+      <comboItem>••• Lying in Wait</comboItem>
+      <comboItem>••• Master of Evil</comboItem>
+      <comboItem>••• Notorious Scoundrels</comboItem>
+      <comboItem>••• Return of the Jedi</comboItem>
+      <comboItem>••• Roger, Roger!</comboItem>
+      <comboItem>••• Ruthless Tactics</comboItem>
+      <comboItem>••• Sacrifice</comboItem>
+      <comboItem>••• Seize What Power We Can</comboItem>
+      <comboItem>••• Smoke Screen</comboItem>
+      <comboItem>••• Somebody Has to Save Our Skins</comboItem>
+      <comboItem>••• Tactical Strike</comboItem>
+      <comboItem>••• Unstoppable Advance</comboItem>
+      <comboItem>••• Victory or Death!</comboItem>
+      <comboItem>••• Volunteer Mission</comboItem>
+      <comboItem>••• Yhwargghhhhhhhhhh!</comboItem>
+      <comboItem>••• You Disappoint Me</comboItem>
+      <comboItem>••• Z-6 Jetpack Rocket</comboItem>
+      <comboItem>•••• Standing Orders</comboItem>
+    </comboBox>
+    <label x="590" y="14" width="46" height="13">Player 2</label>
+    <spinBox id="p2Score" x="325" y="9" width="40" height="25" maximum="15" />
+    <lineEdit id="p2Name" x="410" y="10" width="170" height="20"  />
+    <label x="375" y="14" width="46" height="13">VPs</label>
+    <label x="590" y="44" width="46" height="13">Faction</label>
+    <comboBox id="p2Faction" x="410" y="40" width="170" height="20" >
+      <comboItem>   </comboItem>
+      <comboItem>Empire</comboItem>
+      <comboItem>Rebels</comboItem>
+      <comboItem>Republic</comboItem>
+      <comboItem>Separatist</comboItem>
+      <comboItem>Shadow Collective</comboItem>
+    </comboBox>
+    <label x="590" y="74" width="46" height="13">Command</label>
+    <comboBox id="p2Command" x="410" y="70" width="170" height="20" >
+      <comboItem>   </comboItem>
+      <comboItem>• AI Coordination</comboItem>
+      <comboItem>• Ambush</comboItem>
+      <comboItem>• And Now You Will Die</comboItem>
+      <comboItem>• Blast Off!</comboItem>
+      <comboItem>• Common Cause</comboItem>
+      <comboItem>• Coordinated Bombardment</comboItem>
+      <comboItem>• Cover Observation</comboItem>
+      <comboItem>• Crack Shot</comboItem>
+      <comboItem>• Delaying Tactics</comboItem>
+      <comboItem>• Duel of the Fates</comboItem>
+      <comboItem>• Explosions!</comboItem>
+      <comboItem>• Face Me!</comboItem>
+      <comboItem>• Fear, Surprise, Intimidation</comboItem>
+      <comboItem>• Grroooogrrraaaawrrrrrrrrrrrrmph</comboItem>
+      <comboItem>• Hello There!</comboItem>
+      <comboItem>• I'm Your Worst Nightmare</comboItem>
+      <comboItem>• Idiot's Army</comboItem>
+      <comboItem>• Implacable</comboItem>
+      <comboItem>• Marked for Elimination</comboItem>
+      <comboItem>• Maximum Firepower</comboItem>
+      <comboItem>• Mechnized Incursion</comboItem>
+      <comboItem>• Merciless Munitions</comboItem>
+      <comboItem>• Our Fate is in Your Hands</comboItem>
+      <comboItem>• Ploy</comboItem>
+      <comboItem>• Pulse Scan</comboItem>
+      <comboItem>• Rebellious</comboItem>
+      <comboItem>• Sabotaged Communications</comboItem>
+      <comboItem>• Size Matters Not</comboItem>
+      <comboItem>• Somebody Has to be a Hero</comboItem>
+      <comboItem>• Son of Skywalker</comboItem>
+      <comboItem>• Sorry About the Mess</comboItem>
+      <comboItem>• Synchronized Offensive</comboItem>
+      <comboItem>• They Too Will Suffer</comboItem>
+      <comboItem>• This is Where the Fun Begins</comboItem>
+      <comboItem>• Trained in Your Jedi Arts</comboItem>
+      <comboItem>• Unrelenting Fire</comboItem>
+      <comboItem>• Vader's Might</comboItem>
+      <comboItem>• Voracious Ambition</comboItem>
+      <comboItem>• Whipcord Launcher</comboItem>
+      <comboItem>• Witch Magick</comboItem>
+      <comboItem>• You Serve Your Master Well</comboItem>
+      <comboItem>•• Ace Up His Sleeve</comboItem>
+      <comboItem>•• Aggression</comboItem>
+      <comboItem>•• Aggressive Negotiations</comboItem>
+      <comboItem>•• Air Support</comboItem>
+      <comboItem>•• Brains and Brawn</comboItem>
+      <comboItem>•• Concussive Blast</comboItem>
+      <comboItem>•• Curage of the Rebellion</comboItem>
+      <comboItem>•• Deploy the Garrisson</comboItem>
+      <comboItem>•• Double the Fall</comboItem>
+      <comboItem>•• Evasive Maneuvers</comboItem>
+      <comboItem>•• Fear and Dead Men</comboItem>
+      <comboItem>•• Fight Another Day</comboItem>
+      <comboItem>•• Full of Surprises</comboItem>
+      <comboItem>•• Give in to Your Anger</comboItem>
+      <comboItem>•• His Eminence</comboItem>
+      <comboItem>•• I'm in Control</comboItem>
+      <comboItem>•• ISB Investigation</comboItem>
+      <comboItem>•• Impromptu Immolation</comboItem>
+      <comboItem>•• Incapacitate</comboItem>
+      <comboItem>•• Knowledge and Defense</comboItem>
+      <comboItem>•• Last Stand</comboItem>
+      <comboItem>•• Lead from the Front</comboItem>
+      <comboItem>•• Mrowgh Ghrrmrowrig!</comboItem>
+      <comboItem>•• My Ally is the Force</comboItem>
+      <comboItem>•• New Ways to Motivate Them</comboItem>
+      <comboItem>•• No Time for Sorrows</comboItem>
+      <comboItem>•• Orbital Strike</comboItem>
+      <comboItem>•• Overwhelming Barrage</comboItem>
+      <comboItem>•• Pinned Down</comboItem>
+      <comboItem>•• Preservation Protocols</comboItem>
+      <comboItem>•• Push</comboItem>
+      <comboItem>•• Reckless Diversion</comboItem>
+      <comboItem>•• Reptilian Rampage</comboItem>
+      <comboItem>•• Size Matters Sometimes</comboItem>
+      <comboItem>•• Supreme Commander</comboItem>
+      <comboItem>•• Surgical Strike</comboItem>
+      <comboItem>•• Symbol of Rebellion</comboItem>
+      <comboItem>•• Tactical Planning</comboItem>
+      <comboItem>•• The Phatom Menace</comboItem>
+      <comboItem>•• There is No Try</comboItem>
+      <comboItem>•• Trust Goes Both Ways</comboItem>
+      <comboItem>•• Turning the Tide</comboItem>
+      <comboItem>•• Unrelenting Assualt</comboItem>
+      <comboItem>•• You Underestimate My Power</comboItem>
+      <comboItem>•• ZX Flame Projector</comboItem>
+      <comboItem>••• All In</comboItem>
+      <comboItem>••• An Entire Legion</comboItem>
+      <comboItem>••• Annihilation Looms</comboItem>
+      <comboItem>••• Assualt</comboItem>
+      <comboItem>••• At Last</comboItem>
+      <comboItem>••• Attack of the Clones</comboItem>
+      <comboItem>••• Change of Plans</comboItem>
+      <comboItem>••• Complete the Mission</comboItem>
+      <comboItem>••• Coordinated Fire</comboItem>
+      <comboItem>••• Covering Fire</comboItem>
+      <comboItem>••• Crush Them!</comboItem>
+      <comboItem>••• Darkness Descends</comboItem>
+      <comboItem>••• Debark for Ground Assault</comboItem>
+      <comboItem>••• Diplomatic Cover</comboItem>
+      <comboItem>••• Discretion</comboItem>
+      <comboItem>••• Do Not Underestimate Our Means</comboItem>
+      <comboItem>••• General Kenobi</comboItem>
+      <comboItem>••• Hero of the Clone Wars</comboItem>     
+      <comboItem>••• Hold at Any Cost</comboItem>
+      <comboItem>••• I Make the Rules Now</comboItem>
+      <comboItem>••• I am a Jedi</comboItem>
+      <comboItem>••• Imperial Discipline</comboItem>
+      <comboItem>••• Leader of the 501st</comboItem>
+      <comboItem>••• Legacy of Mandalore</comboItem>
+      <comboItem>••• Luminous Beings Are We</comboItem>
+      <comboItem>••• Lying in Wait</comboItem>
+      <comboItem>••• Master of Evil</comboItem>
+      <comboItem>••• Notorious Scoundrels</comboItem>
+      <comboItem>••• Return of the Jedi</comboItem>
+      <comboItem>••• Roger, Roger!</comboItem>
+      <comboItem>••• Ruthless Tactics</comboItem>
+      <comboItem>••• Sacrifice</comboItem>
+      <comboItem>••• Seize What Power We Can</comboItem>
+      <comboItem>••• Smoke Screen</comboItem>
+      <comboItem>••• Somebody Has to Save Our Skins</comboItem>
+      <comboItem>••• Tactical Strike</comboItem>
+      <comboItem>••• Unstoppable Advance</comboItem>
+      <comboItem>••• Victory or Death!</comboItem>
+      <comboItem>••• Volunteer Mission</comboItem>
+      <comboItem>••• Yhwargghhhhhhhhhh!</comboItem>
+      <comboItem>••• You Disappoint Me</comboItem>
+      <comboItem>••• Z-6 Jetpack Rocket</comboItem>
+      <comboItem>•••• Standing Orders</comboItem>
+    </comboBox>
+    <label x="10" y="104" width="46" height="13">Objective</label>
+    <comboBox id="battleObj" x="60" y="100" width="170" height="20">
+      <comboItem>   </comboItem>
+      <comboItem>Bombing Run</comboItem>
+      <comboItem>Breach</comboItem>
+      <comboItem>Breakthrough</comboItem>
+      <comboItem>Hostage Exchange</comboItem>
+      <comboItem>Intercept Transmission</comboItem>
+      <comboItem>Key Positions</comboItem>
+      <comboItem>Payload</comboItem>
+      <comboItem>Recover Supplies</comboItem>
+      <comboItem>Sabotage Moisture Vaporators</comboItem>
+    </comboBox>
+    <label x="290" y="84" width="76" height="13">Deployment</label>
+    <comboBox id="battleDeploy" x="235" y="100" width="170" height="20">
+      <comboItem>   </comboItem>
+      <comboItem>Advanced Position</comboItem>
+      <comboItem>Battle Lines</comboItem>
+      <comboItem>Danger Close</comboItem>
+      <comboItem>Disarray</comboItem>
+      <comboItem>Hemmed In</comboItem>
+      <comboItem>Major Offense</comboItem>
+      <comboItem>Roll Out</comboItem>
+      <comboItem>The Long March</comboItem>      
+    </comboBox>
+    <label x="590" y="104" width="76" height="13">Condition</label>
+    <comboBox id="battleCondition" x="410" y="100" width="170" height="20">
+      <comboItem>   </comboItem>
+      <comboItem>Clear Conditions</comboItem>      
+      <comboItem>Fortified Positions</comboItem>
+      <comboItem>Hostile Environment</comboItem>
+      <comboItem>Limited Visibility</comboItem>
+      <comboItem>Minefield</comboItem>
+      <comboItem>Rapid Reinforcements</comboItem>
+      <comboItem>Supply Drop</comboItem>
+      <comboItem>War Weary</comboItem>
+    </comboBox>
+    <label x="10" y="134" width="46" height="13">Round</label>
+    <comboBox id="round" x="60" y="130" width="170" height="20">
+      <comboItem>Round 1</comboItem>
+      <comboItem>Round 2</comboItem>
+      <comboItem>Round 3</comboItem>
+      <comboItem>Round 4</comboItem>
+      <comboItem>Round 5</comboItem>
+      <comboItem>Round 6</comboItem>
+    </comboBox>
+    <button type="swap" x="240" y="130" width="90" height="25" tooltip="Swap the Scores" id="swap1" swapSet1="p1Command,p1Team,p1Name,p1Score,p1Faction" swapSet2="p2Command,p2Team,p2Name,p2Score,p2Faction">Swap</button>
+    <button type="reset" x="340" y="130" width="115" height="25" tooltip="Reset the Scores" id="reset1" reset="p1Score,p2Score">Reset Scores</button>
+    <button type="reset" x="465" y="130" width="115" height="25" tooltip="Clear Everything" id="reset2" reset="p1Team,p1Name,p1Score,p2Team,p2Name,p2Score">Clear Everything</button>
+  </tab>
+</layout>
